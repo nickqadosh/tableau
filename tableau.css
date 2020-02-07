@@ -1,0 +1,30 @@
+body{
+    margin: 100px;
+    background: skyblue;
+}
+table{
+    margin: auto;
+    width: 50vw;
+    height: 60vh;
+    text-align: center;
+    table-layout: fixed;
+}
+table,td,tr,th{
+    padding: 20px;
+    color: white;
+    border: 1px solid #080808;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: Arial;
+    background: linear-gradient(top,#3c3c3c 0%, #222222 100%);
+    background: -webkit-linear-gradient(top,#3c3c3c 0%, #222222 100%);
+}
+td:hover{
+    background: orange;
+}
+caption{
+    text-decoration: underline;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 2em;
+}
